@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Men Styles</title>
+    <link rel="stylesheet" href="./styles/product-style.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <style>
+      .container {
+            padding: 20px;
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+        .product img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            border-radius: 5px;
+            margin-right: 800px;
+        }
+        .product-details {
+            flex: 1;
+        }
+        .product-title {
+            font-size: 18px;
+            margin: 0 0 10px;
+        }
+        .product-price {
+            color: #b12704;
+            font-size: 16px;
+            margin: 0;
+        }
+        .buy-button {
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 2px;
+            cursor: pointer;
+            text-align: center;
+        }
+        .buy-button:hover {
+            background-color: #e68a00;
+        }
+        .top-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        
+        .top-right button {
+            margin-left: 10px;
+        }
+        h1 {
+            color: #f0f0f0;
+
+        }
+        .logo img {
+            position: absolute;
+            top: 5px;
+            left: 10px;
+        }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/b5e607be6d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- For Sidebar -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/ec/95/cf/ec95cf46-eafc-e543-a9a2-98cbfe48bccb/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1024x1024bb.png"
+      type="image/x-icon"
+    />
+    
+  </head>
+  <body>
+    <div id="naz-nav-container"></div>
+    <div id="naz-content-container">
+      <!-- Sidebar -->
+
+      <div id="naz-sidebar"></div>
+      <!-- Product Container -->
+      <div id="naz-product-container"></div>
+      <!-- Sort By Price -->
+      <div id="naz-sort-products">
+        <span id="naz-sort-text">SORT BY</span>
+        <select name="sort" id="naz-sort-products-option">
+          <option value="Relevence">Relevence</option>
+          <option value="Discount">Discount</option>
+          <option value="hightolow">Price (highest first)</option>
+          <option value="lowtohigh">Price (lowest first)</option>
+        </select>
+        <!-- Sort By Price Ends -->
+        <div class="product">
+          <img src="https://assets.ajio.com/medias/sys_master/root/20240619/3xwQ/6672cfe56f60443f31582126/-473Wx593H-4931760840-multi-MODEL5.jpg" alt="men">
+          <div class="product-details">
+              <h2 class="product-title"> ₹1565 </h2>
+          </div>
+          <a href="https://www.ajio.com/spiderman-ne-bp-spiderman-wonder-16-inch/p/4931760840_multi" >ORDER NOW </a>
+  </div>
+        <div class="product">
+          <img src="https://assets.ajio.com/medias/sys_master/root/h3d/h8f/9787707490334/-473Wx593H-450093478-rylblu-MODEL.jpg" alt="men">
+          <div class="product-details">
+              <h2 class="product-title"> ₹637</h2>
+          </div>
+          <a href="https://www.ajio.com/kidsville-spiderman-print-sandals-with-velcro-straps/p/450093478_rylblu">ORDER NOW</a>
+  </div>
+
+  <div class="product">
+    <img src="https://assets.ajio.com/medias/sys_master/root/20240515/vygM/6644adb105ac7d77bb5ce88f/-473Wx593H-469610934-black-MODEL4.jpg" alt="men">
+    <div class="product-details">
+        <h2 class="product-title"> ₹926</h2>
+    </div>
+    <a href="https://www.ajio.com/minute-mirth-boys-naruto-print-relaxed-fit-crew-neck-t-shirt/p/469610934_black">ORDER NOW</a>
+</div>
+      </div>
+    </div>
+    <div id="naz-footer-container"></div>
+  </body>
+</html>
+
+<!-- <script src="./assets/menData.js"></script> -->
+<script src="./scripts/menStyles.js" type="module"></script>

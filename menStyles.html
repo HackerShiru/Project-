@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Men Styles</title>
+    <link rel="stylesheet" href="./styles/product-style.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <style>
+      .container {
+            padding: 20px;
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+        .product img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            border-radius: 5px;
+            margin-right: 800px;
+        }
+        .product-details {
+            flex: 1;
+        }
+        .product-title {
+            font-size: 18px;
+            margin: 0 0 10px;
+        }
+        .product-price {
+            color: #b12704;
+            font-size: 16px;
+            margin: 0;
+        }
+        .buy-button {
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 2px;
+            cursor: pointer;
+            text-align: center;
+        }
+        .buy-button:hover {
+            background-color: #e68a00;
+        }
+        .top-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        
+        .top-right button {
+            margin-left: 10px;
+        }
+        h1 {
+            color: #f0f0f0;
+
+        }
+        .logo img {
+            position: absolute;
+            top: 5px;
+            left: 10px;
+        }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/b5e607be6d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- For Sidebar -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/ec/95/cf/ec95cf46-eafc-e543-a9a2-98cbfe48bccb/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1024x1024bb.png"
+      type="image/x-icon"
+    />
+    
+  </head>
+  <body>
+    <div id="naz-nav-container"></div>
+    <div id="naz-content-container">
+      <!-- Sidebar -->
+
+      <div id="naz-sidebar"></div>
+      <!-- Product Container -->
+      <div id="naz-product-container"></div>
+      <!-- Sort By Price -->
+      <div id="naz-sort-products">
+        <span id="naz-sort-text">SORT BY</span>
+        <select name="sort" id="naz-sort-products-option">
+          <option value="Relevence">Relevence</option>
+          <option value="Discount">Discount</option>
+          <option value="hightolow">Price (highest first)</option>
+          <option value="lowtohigh">Price (lowest first)</option>
+        </select>
+        <!-- Sort By Price Ends -->
+        <div class="product">
+          <img src="https://assets.ajio.com/medias/sys_master/root/20240928/cxTe/66f76af2f9b8ef490b79c067/-473Wx593H-700493796-blue-MODEL.jpg" alt="men">
+          <div class="product-details">
+              <h2 class="product-title"> ₹713 </h2>
+          </div>
+          <a href="https://www.ajio.com/vastrado-checks-short-kurta/p/700493796_blue" >ORDER NOW </a>
+  </div>
+        <div class="product">
+          <img src="https://assets.ajio.com/medias/sys_master/root/20221208/Voyv/63918a22f997ddfdbdc7372f/-473Wx593H-469393307-blue-MODEL.jpg" alt="men">
+          <div class="product-details">
+              <h2 class="product-title"> ₹637</h2>
+          </div>
+          <a href="https://www.ajio.com/the-indian-garage-co-acid-heavily-washed-jeans/p/469393307_blue">ORDER NOW</a>
+  </div>
+
+  <div class="product">
+    <img src="https://assets.ajio.com/medias/sys_master/root/20240320/rVyA/65fac8d916fd2c6e6a7145ee/-473Wx593H-440971924-darkgrey-MODEL.jpg" alt="men">
+    <div class="product-details">
+        <h2 class="product-title"> ₹326</h2>
+    </div>
+    <a href="https://www.ajio.com/performax-men-fastdry-active-essential-track-pants/p/440971924_darkgrey">ORDER NOW</a>
+</div>
+
+<div class="product">
+  <img src="https://assets.ajio.com/medias/sys_master/root/20240919/AXCW/66eb7c9a260f9c41e8125120/-473Wx593H-700441250-multi-MODEL4.jpg" alt="men">
+  <div class="product-details">
+      <h2 class="product-title"> ₹682</h2>
+  </div>
+  <a href="https://www.ajio.com/bombay-begum-men-regular-fit-shirt-with-spread-collar/p/700441250_multi">ORDER NOW</a>
+</div>
+
+<div class="product">
+  <img src="https://assets.ajio.com/medias/sys_master/root/20240821/Q3p3/66c58b5e1d763220fa8a7d63/-473Wx593H-442667245-green-MODEL.jpg" alt="men">
+  <div class="product-details">
+      <h2 class="product-title"> ₹599</h2>
+  </div>
+  <a href="https://www.ajio.com/netplay-for-trends-select-men-regular-fit-flat-front-shorts/p/442667245_green">ORDER NOW</a>
+</div>
+      </div>
+    </div>
+    <div id="naz-footer-container"></div>
+  </body>
+</html>
+
+<!-- <script src="./assets/menData.js"></script> -->
+<script src="./scripts/menStyles.js" type="module"></script>
